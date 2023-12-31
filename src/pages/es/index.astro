@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<Layout title="Welcome to Astro.">
+  <main class="full row centered">
+    <p class="text-2xl">{t('nav.home')}</p>
+    <p class="text-2xl">{t('nav.about')}</p>
+  </main>
+</Layout>

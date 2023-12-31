@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './theme.css';
+
+@layer base {
+}
+
+@layer components {
+  .full {
+    @apply w-full h-full;
+  }
+
+  .col {
+    @apply flex flex-col;
+  }
+
+  .row {
+    @apply flex flex-row;
+  }
+
+  .centered {
+    @apply justify-center items-center;
+  }
+}

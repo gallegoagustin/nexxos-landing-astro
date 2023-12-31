@@ -1,0 +1,21 @@
+:root {
+  white-space: pre-line;
+
+  /* Colors */
+  --color-base: #ffffff;
+  --color-base-content: #323232;
+
+  /* General */
+  --font-size-md: 14px;
+  --border-radius: 0rem;
+  --font-family: BeVietnam;
+}
+
+/* .dark {} */
+
+body {
+  background-color: var(--color-base);
+  color: var(--color-base-content);
+  font-family: var(--font-family);
+  font-size: var(--font-size-md);
+}
